@@ -1,0 +1,1848 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "0fc122b6-620c-463a-9463-c1b0bf65b8d3")
+	(paper "A4")
+	(lib_symbols
+		(symbol "project:DRV8323RS"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -4.826 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DRV8323RS_1_0"
+				(pin no_connect line
+					(at -12.7 -1.27 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 10.16 0)
+					(length 2.54)
+					(name "nFAULT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 6.35 0)
+					(length 2.54)
+					(name "SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 3.81 0)
+					(length 2.54)
+					(name "SDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 1.27 0)
+					(length 2.54)
+					(name "SCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -1.27 0)
+					(length 2.54)
+					(name "nSCS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -6.35 0)
+					(length 2.54)
+					(name "CAL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -8.89 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -13.97 0)
+					(length 2.54)
+					(name "VREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "DRV8323RS_1_1"
+				(rectangle
+					(start -5.08 11.938)
+					(end 5.08 -15.494)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "COMMS\n"
+					(at -0.254 12.954 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "DRV8323RS_2_0"
+				(pin unspecified line
+					(at -11.43 13.97 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 7.62 0)
+					(length 2.54)
+					(name "nSHDN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 2.54 0)
+					(length 2.54)
+					(name "BGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 13.97 180)
+					(length 2.54)
+					(name "CB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "DRV8323RS_2_1"
+				(rectangle
+					(start -8.89 16.002)
+					(end 7.62 0.762)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "BUCK"
+					(at -0.254 17.018 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "DRV8323RS_3_0"
+				(pin unspecified line
+					(at -11.43 10.16 0)
+					(length 2.54)
+					(name "VDRAIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 7.62 0)
+					(length 2.54)
+					(name "VM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 -6.35 0)
+					(length 2.54)
+					(name "AGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 -8.89 0)
+					(length 2.54)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 -11.43 0)
+					(length 2.54)
+					(name "PAD_GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 -13.97 0)
+					(length 2.54)
+					(name "DGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 10.16 180)
+					(length 2.54)
+					(name "VCP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 6.35 180)
+					(length 2.54)
+					(name "CPH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 1.27 180)
+					(length 2.54)
+					(name "CPL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -13.97 180)
+					(length 2.54)
+					(name "DVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "DRV8323RS_3_1"
+				(rectangle
+					(start -8.89 11.938)
+					(end 10.16 -14.986)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "POWER"
+					(at -1.016 13.208 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "DRV8323RS_4_0"
+				(pin unspecified line
+					(at -10.16 3.81 0)
+					(length 2.54)
+					(name "INLA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 1.27 0)
+					(length 2.54)
+					(name "INHA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -6.35 0)
+					(length 2.54)
+					(name "SOA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 3.81 180)
+					(length 2.54)
+					(name "GHA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 1.27 180)
+					(length 2.54)
+					(name "SHA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 -1.27 180)
+					(length 2.54)
+					(name "GLA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 -3.81 180)
+					(length 2.54)
+					(name "SPA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 -6.35 180)
+					(length 2.54)
+					(name "SNA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "DRV8323RS_4_1"
+				(rectangle
+					(start -7.62 5.588)
+					(end 6.35 -7.62)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "PHASE A"
+					(at -0.762 6.858 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "DRV8323RS_5_0"
+				(pin unspecified line
+					(at 1.27 3.81 0)
+					(length 2.54)
+					(name "SPB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 1.27 1.27 0)
+					(length 2.54)
+					(name "SOB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 1.27 -1.27 0)
+					(length 2.54)
+					(name "SNB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 1.27 -3.81 0)
+					(length 2.54)
+					(name "SHB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 1.27 -6.35 0)
+					(length 2.54)
+					(name "INLB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 1.27 -8.89 0)
+					(length 2.54)
+					(name "INHB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 -11.43 0)
+					(length 2.54)
+					(name "GLB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 -13.97 0)
+					(length 2.54)
+					(name "GHB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "DRV8323RS_5_1"
+				(rectangle
+					(start -10.16 5.842)
+					(end 11.176 -15.494)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "PHASE B"
+					(at -0.508 7.62 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "DRV8323RS_6_0"
+				(pin unspecified line
+					(at 2.54 5.08 0)
+					(length 2.54)
+					(name "SPC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 2.54 0)
+					(length 2.54)
+					(name "SOC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 0 0)
+					(length 2.54)
+					(name "SNC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 -2.54 0)
+					(length 2.54)
+					(name "SHC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 -5.08 0)
+					(length 2.54)
+					(name "INLC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 -7.62 0)
+					(length 2.54)
+					(name "INHC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 -10.16 0)
+					(length 2.54)
+					(name "GLC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 -12.7 0)
+					(length 2.54)
+					(name "GHC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "DRV8323RS_6_1"
+				(rectangle
+					(start -8.382 8.382)
+					(end 10.414 -15.494)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "PHASE C"
+					(at -1.524 9.652 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "project:DRV8323RS")
+		(at 97.79 161.29 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "268893ad-c8e1-445f-b211-94fddd9a0532")
+		(property "Reference" "U1"
+			(at 98.425 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 98.425 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "28"
+			(uuid "cdb30cb0-0274-4336-870e-85237b099847")
+		)
+		(pin "48"
+			(uuid "40870f77-9c68-4573-9746-bd76643d15c3")
+		)
+		(pin "P"
+			(uuid "687f1549-43d0-4b45-910f-3d7158f2a67a")
+		)
+		(pin "6"
+			(uuid "07e29425-580b-4520-818d-bd5905e26dcd")
+		)
+		(pin "43"
+			(uuid "95fc8e59-402a-445e-9ef9-c3feca5d25ab")
+		)
+		(pin "31"
+			(uuid "80e8d8cc-2e8c-4a3e-8968-d8f11a1462eb")
+		)
+		(pin "46"
+			(uuid "51b4d686-8931-4e27-ad55-a2644f8fde49")
+		)
+		(pin "29"
+			(uuid "089b944d-0029-4b99-ab74-4d04d1d630de")
+		)
+		(pin "45"
+			(uuid "b4116eeb-8a55-418a-bdf6-b0fbb12169c6")
+		)
+		(pin "1"
+			(uuid "ed9fe058-6d00-4daa-8c5f-44b00c8c9366")
+		)
+		(pin "7"
+			(uuid "539b8ee7-d5e2-4516-b69c-750bfbefc079")
+		)
+		(pin "14"
+			(uuid "0f80934f-4706-46fd-b2b9-ab5a593e591d")
+		)
+		(pin "5"
+			(uuid "8cb3507e-da25-4e59-bae9-9ab8dca2f32f")
+		)
+		(pin "35"
+			(uuid "bbc88710-a061-4ba6-8fa7-b86ab2b8e32a")
+		)
+		(pin "37"
+			(uuid "8c171652-6c39-4e0d-a2fc-1919c5df17bd")
+		)
+		(pin "12"
+			(uuid "f000ad84-9846-464c-b72b-c29d83fec939")
+		)
+		(pin "33"
+			(uuid "13aa3d08-6edc-4eea-bcfb-53016b3af252")
+		)
+		(pin "4"
+			(uuid "616b8eac-d028-4c1c-8ea1-e43ee0956dfd")
+		)
+		(pin "30"
+			(uuid "9836b395-affa-4ce7-8cf3-6c97a113c216")
+		)
+		(pin "26"
+			(uuid "968339b1-dbb7-4899-aec3-d496c5116a9e")
+		)
+		(pin "2"
+			(uuid "82708209-ee1c-40e3-82ae-0d88e37386f6")
+		)
+		(pin "47"
+			(uuid "9d8a73b8-5632-47c8-8d30-88d5a3adae7b")
+		)
+		(pin "34"
+			(uuid "9d1cafe2-6dbb-4619-a8e1-63c5410abe95")
+		)
+		(pin "32"
+			(uuid "8b1ed470-e2aa-42d2-aebc-392dedbe41b9")
+		)
+		(pin "44"
+			(uuid "3e342f9d-0ff1-4fb6-973c-ddfdcae855e2")
+		)
+		(pin "3"
+			(uuid "740be439-3fe4-420b-9963-83e8e55d1c05")
+		)
+		(pin "36"
+			(uuid "82e73c7d-6c69-4f12-b6d7-fdca8743789f")
+		)
+		(pin "8"
+			(uuid "cbf89cdb-f33d-478d-8674-0306df06ca1b")
+		)
+		(pin "25"
+			(uuid "23fe3631-9d27-4694-8d64-80595196586b")
+		)
+		(pin "10"
+			(uuid "18d7d402-1bf2-40e7-9b80-59e3c1feb662")
+		)
+		(pin "27"
+			(uuid "307419f3-e988-4f0f-8ae9-ee3a217bfad2")
+		)
+		(pin "38"
+			(uuid "8adf067e-94dd-43c3-94c6-21ef3d96094f")
+		)
+		(pin "11"
+			(uuid "47520f64-106e-4517-ae55-3695c3933035")
+		)
+		(pin "9"
+			(uuid "99668ae9-a0d2-48a9-9bdb-c52f158cce15")
+		)
+		(pin "24"
+			(uuid "f6e12288-c29e-41e6-95eb-f7d535cacc80")
+		)
+		(pin "20"
+			(uuid "7f4b5c0c-33a5-4318-98e3-b57e27d13d31")
+		)
+		(pin "18"
+			(uuid "9938c872-71b1-4983-b77e-48b128c97347")
+		)
+		(pin "23"
+			(uuid "b1217b87-2cac-4bca-be9a-b82362e9fe6e")
+		)
+		(pin "15"
+			(uuid "e0b641d3-f045-44c7-a39b-232d8a8f316a")
+		)
+		(pin "19"
+			(uuid "01044fb9-2b44-4bac-a5c2-265c33f1c856")
+		)
+		(pin "16"
+			(uuid "15f37fea-64e4-4670-a58a-2c07b2d230dc")
+		)
+		(pin "40"
+			(uuid "223077ee-b95a-4657-9d3b-778bc4d192f6")
+		)
+		(pin "41"
+			(uuid "b6d072ce-a8b5-4cfd-9dfc-5f66ffd0bb6d")
+		)
+		(pin "17"
+			(uuid "a0b333a8-a41f-4a17-934f-5a177e0895fa")
+		)
+		(pin "42"
+			(uuid "29004493-7b0e-4666-be0d-8d763c7e3746")
+		)
+		(pin "21"
+			(uuid "8dc83c33-a53d-44ca-8315-42f5470bceb9")
+		)
+		(pin "13"
+			(uuid "fb0abafc-efc4-4b77-9736-b9354cdaec0a")
+		)
+		(pin "22"
+			(uuid "867b7623-9754-41be-aab0-7002cd2132e4")
+		)
+		(pin "39"
+			(uuid "d5e773ba-decd-4b77-892e-e9f312c7ff67")
+		)
+		(instances
+			(project ""
+				(path "/0fc122b6-620c-463a-9463-c1b0bf65b8d3"
+					(reference "U1")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "project:DRV8323RS")
+		(at 144.78 76.2 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "396c9b2b-0068-4699-9398-79189d85b685")
+		(property "Reference" "U1"
+			(at 144.145 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 144.145 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "28"
+			(uuid "cdb30cb0-0274-4336-870e-85237b099847")
+		)
+		(pin "48"
+			(uuid "40870f77-9c68-4573-9746-bd76643d15c3")
+		)
+		(pin "P"
+			(uuid "687f1549-43d0-4b45-910f-3d7158f2a67a")
+		)
+		(pin "6"
+			(uuid "07e29425-580b-4520-818d-bd5905e26dcd")
+		)
+		(pin "43"
+			(uuid "95fc8e59-402a-445e-9ef9-c3feca5d25ab")
+		)
+		(pin "31"
+			(uuid "80e8d8cc-2e8c-4a3e-8968-d8f11a1462eb")
+		)
+		(pin "46"
+			(uuid "51b4d686-8931-4e27-ad55-a2644f8fde49")
+		)
+		(pin "29"
+			(uuid "089b944d-0029-4b99-ab74-4d04d1d630de")
+		)
+		(pin "45"
+			(uuid "b4116eeb-8a55-418a-bdf6-b0fbb12169c6")
+		)
+		(pin "1"
+			(uuid "ed9fe058-6d00-4daa-8c5f-44b00c8c9366")
+		)
+		(pin "7"
+			(uuid "539b8ee7-d5e2-4516-b69c-750bfbefc079")
+		)
+		(pin "14"
+			(uuid "0f80934f-4706-46fd-b2b9-ab5a593e591d")
+		)
+		(pin "5"
+			(uuid "8cb3507e-da25-4e59-bae9-9ab8dca2f32f")
+		)
+		(pin "35"
+			(uuid "bbc88710-a061-4ba6-8fa7-b86ab2b8e32a")
+		)
+		(pin "37"
+			(uuid "8c171652-6c39-4e0d-a2fc-1919c5df17bd")
+		)
+		(pin "12"
+			(uuid "f000ad84-9846-464c-b72b-c29d83fec939")
+		)
+		(pin "33"
+			(uuid "13aa3d08-6edc-4eea-bcfb-53016b3af252")
+		)
+		(pin "4"
+			(uuid "616b8eac-d028-4c1c-8ea1-e43ee0956dfd")
+		)
+		(pin "30"
+			(uuid "9836b395-affa-4ce7-8cf3-6c97a113c216")
+		)
+		(pin "26"
+			(uuid "968339b1-dbb7-4899-aec3-d496c5116a9e")
+		)
+		(pin "2"
+			(uuid "82708209-ee1c-40e3-82ae-0d88e37386f6")
+		)
+		(pin "47"
+			(uuid "9d8a73b8-5632-47c8-8d30-88d5a3adae7b")
+		)
+		(pin "34"
+			(uuid "9d1cafe2-6dbb-4619-a8e1-63c5410abe95")
+		)
+		(pin "32"
+			(uuid "8b1ed470-e2aa-42d2-aebc-392dedbe41b9")
+		)
+		(pin "44"
+			(uuid "3e342f9d-0ff1-4fb6-973c-ddfdcae855e2")
+		)
+		(pin "3"
+			(uuid "740be439-3fe4-420b-9963-83e8e55d1c05")
+		)
+		(pin "36"
+			(uuid "82e73c7d-6c69-4f12-b6d7-fdca8743789f")
+		)
+		(pin "8"
+			(uuid "cbf89cdb-f33d-478d-8674-0306df06ca1b")
+		)
+		(pin "25"
+			(uuid "23fe3631-9d27-4694-8d64-80595196586b")
+		)
+		(pin "10"
+			(uuid "18d7d402-1bf2-40e7-9b80-59e3c1feb662")
+		)
+		(pin "27"
+			(uuid "307419f3-e988-4f0f-8ae9-ee3a217bfad2")
+		)
+		(pin "38"
+			(uuid "8adf067e-94dd-43c3-94c6-21ef3d96094f")
+		)
+		(pin "11"
+			(uuid "47520f64-106e-4517-ae55-3695c3933035")
+		)
+		(pin "9"
+			(uuid "99668ae9-a0d2-48a9-9bdb-c52f158cce15")
+		)
+		(pin "24"
+			(uuid "f6e12288-c29e-41e6-95eb-f7d535cacc80")
+		)
+		(pin "20"
+			(uuid "7f4b5c0c-33a5-4318-98e3-b57e27d13d31")
+		)
+		(pin "18"
+			(uuid "9938c872-71b1-4983-b77e-48b128c97347")
+		)
+		(pin "23"
+			(uuid "b1217b87-2cac-4bca-be9a-b82362e9fe6e")
+		)
+		(pin "15"
+			(uuid "e0b641d3-f045-44c7-a39b-232d8a8f316a")
+		)
+		(pin "19"
+			(uuid "01044fb9-2b44-4bac-a5c2-265c33f1c856")
+		)
+		(pin "16"
+			(uuid "15f37fea-64e4-4670-a58a-2c07b2d230dc")
+		)
+		(pin "40"
+			(uuid "223077ee-b95a-4657-9d3b-778bc4d192f6")
+		)
+		(pin "41"
+			(uuid "b6d072ce-a8b5-4cfd-9dfc-5f66ffd0bb6d")
+		)
+		(pin "17"
+			(uuid "a0b333a8-a41f-4a17-934f-5a177e0895fa")
+		)
+		(pin "42"
+			(uuid "29004493-7b0e-4666-be0d-8d763c7e3746")
+		)
+		(pin "21"
+			(uuid "8dc83c33-a53d-44ca-8315-42f5470bceb9")
+		)
+		(pin "13"
+			(uuid "fb0abafc-efc4-4b77-9736-b9354cdaec0a")
+		)
+		(pin "22"
+			(uuid "867b7623-9754-41be-aab0-7002cd2132e4")
+		)
+		(pin "39"
+			(uuid "d5e773ba-decd-4b77-892e-e9f312c7ff67")
+		)
+		(instances
+			(project ""
+				(path "/0fc122b6-620c-463a-9463-c1b0bf65b8d3"
+					(reference "U1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "project:DRV8323RS")
+		(at 105.41 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c96ba86a-5f14-404a-95ef-3a39955dc715")
+		(property "Reference" "U1"
+			(at 111.76 71.2441 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 111.76 73.1492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "28"
+			(uuid "cdb30cb0-0274-4336-870e-85237b099847")
+		)
+		(pin "48"
+			(uuid "40870f77-9c68-4573-9746-bd76643d15c3")
+		)
+		(pin "P"
+			(uuid "687f1549-43d0-4b45-910f-3d7158f2a67a")
+		)
+		(pin "6"
+			(uuid "07e29425-580b-4520-818d-bd5905e26dcd")
+		)
+		(pin "43"
+			(uuid "95fc8e59-402a-445e-9ef9-c3feca5d25ab")
+		)
+		(pin "31"
+			(uuid "80e8d8cc-2e8c-4a3e-8968-d8f11a1462eb")
+		)
+		(pin "46"
+			(uuid "51b4d686-8931-4e27-ad55-a2644f8fde49")
+		)
+		(pin "29"
+			(uuid "089b944d-0029-4b99-ab74-4d04d1d630de")
+		)
+		(pin "45"
+			(uuid "b4116eeb-8a55-418a-bdf6-b0fbb12169c6")
+		)
+		(pin "1"
+			(uuid "ed9fe058-6d00-4daa-8c5f-44b00c8c9366")
+		)
+		(pin "7"
+			(uuid "539b8ee7-d5e2-4516-b69c-750bfbefc079")
+		)
+		(pin "14"
+			(uuid "0f80934f-4706-46fd-b2b9-ab5a593e591d")
+		)
+		(pin "5"
+			(uuid "8cb3507e-da25-4e59-bae9-9ab8dca2f32f")
+		)
+		(pin "35"
+			(uuid "bbc88710-a061-4ba6-8fa7-b86ab2b8e32a")
+		)
+		(pin "37"
+			(uuid "8c171652-6c39-4e0d-a2fc-1919c5df17bd")
+		)
+		(pin "12"
+			(uuid "f000ad84-9846-464c-b72b-c29d83fec939")
+		)
+		(pin "33"
+			(uuid "13aa3d08-6edc-4eea-bcfb-53016b3af252")
+		)
+		(pin "4"
+			(uuid "616b8eac-d028-4c1c-8ea1-e43ee0956dfd")
+		)
+		(pin "30"
+			(uuid "9836b395-affa-4ce7-8cf3-6c97a113c216")
+		)
+		(pin "26"
+			(uuid "968339b1-dbb7-4899-aec3-d496c5116a9e")
+		)
+		(pin "2"
+			(uuid "82708209-ee1c-40e3-82ae-0d88e37386f6")
+		)
+		(pin "47"
+			(uuid "9d8a73b8-5632-47c8-8d30-88d5a3adae7b")
+		)
+		(pin "34"
+			(uuid "9d1cafe2-6dbb-4619-a8e1-63c5410abe95")
+		)
+		(pin "32"
+			(uuid "8b1ed470-e2aa-42d2-aebc-392dedbe41b9")
+		)
+		(pin "44"
+			(uuid "3e342f9d-0ff1-4fb6-973c-ddfdcae855e2")
+		)
+		(pin "3"
+			(uuid "740be439-3fe4-420b-9963-83e8e55d1c05")
+		)
+		(pin "36"
+			(uuid "82e73c7d-6c69-4f12-b6d7-fdca8743789f")
+		)
+		(pin "8"
+			(uuid "cbf89cdb-f33d-478d-8674-0306df06ca1b")
+		)
+		(pin "25"
+			(uuid "23fe3631-9d27-4694-8d64-80595196586b")
+		)
+		(pin "10"
+			(uuid "18d7d402-1bf2-40e7-9b80-59e3c1feb662")
+		)
+		(pin "27"
+			(uuid "307419f3-e988-4f0f-8ae9-ee3a217bfad2")
+		)
+		(pin "38"
+			(uuid "8adf067e-94dd-43c3-94c6-21ef3d96094f")
+		)
+		(pin "11"
+			(uuid "47520f64-106e-4517-ae55-3695c3933035")
+		)
+		(pin "9"
+			(uuid "99668ae9-a0d2-48a9-9bdb-c52f158cce15")
+		)
+		(pin "24"
+			(uuid "f6e12288-c29e-41e6-95eb-f7d535cacc80")
+		)
+		(pin "20"
+			(uuid "7f4b5c0c-33a5-4318-98e3-b57e27d13d31")
+		)
+		(pin "18"
+			(uuid "9938c872-71b1-4983-b77e-48b128c97347")
+		)
+		(pin "23"
+			(uuid "b1217b87-2cac-4bca-be9a-b82362e9fe6e")
+		)
+		(pin "15"
+			(uuid "e0b641d3-f045-44c7-a39b-232d8a8f316a")
+		)
+		(pin "19"
+			(uuid "01044fb9-2b44-4bac-a5c2-265c33f1c856")
+		)
+		(pin "16"
+			(uuid "15f37fea-64e4-4670-a58a-2c07b2d230dc")
+		)
+		(pin "40"
+			(uuid "223077ee-b95a-4657-9d3b-778bc4d192f6")
+		)
+		(pin "41"
+			(uuid "b6d072ce-a8b5-4cfd-9dfc-5f66ffd0bb6d")
+		)
+		(pin "17"
+			(uuid "a0b333a8-a41f-4a17-934f-5a177e0895fa")
+		)
+		(pin "42"
+			(uuid "29004493-7b0e-4666-be0d-8d763c7e3746")
+		)
+		(pin "21"
+			(uuid "8dc83c33-a53d-44ca-8315-42f5470bceb9")
+		)
+		(pin "13"
+			(uuid "fb0abafc-efc4-4b77-9736-b9354cdaec0a")
+		)
+		(pin "22"
+			(uuid "867b7623-9754-41be-aab0-7002cd2132e4")
+		)
+		(pin "39"
+			(uuid "d5e773ba-decd-4b77-892e-e9f312c7ff67")
+		)
+		(instances
+			(project ""
+				(path "/0fc122b6-620c-463a-9463-c1b0bf65b8d3"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 107.95 121.285)
+		(size 12.7 8.255)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5705e85b-9914-4831-b521-e8296ac61a68")
+		(property "Sheetname" "Phase A"
+			(at 107.95 120.5734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "phase.kicad_sch"
+			(at 107.95 130.1246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "motor_controller"
+				(path "/0fc122b6-620c-463a-9463-c1b0bf65b8d3"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 153.67 121.285)
+		(size 12.7 8.255)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dfc316a5-d794-4b57-8483-445a10206a83")
+		(property "Sheetname" "Phase C"
+			(at 153.67 120.5734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "phase.kicad_sch"
+			(at 153.67 130.1246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "motor_controller"
+				(path "/0fc122b6-620c-463a-9463-c1b0bf65b8d3"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 130.81 121.285)
+		(size 12.7 8.255)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e81e8a8e-fd21-45bf-bc0c-38b72cfb8616")
+		(property "Sheetname" "Phase B"
+			(at 130.81 120.5734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "phase.kicad_sch"
+			(at 130.81 130.1246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "motor_controller"
+				(path "/0fc122b6-620c-463a-9463-c1b0bf65b8d3"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
