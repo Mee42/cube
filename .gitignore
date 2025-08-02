@@ -39,3 +39,5 @@ fp-info-cache
 .svg2shenzhen-cache
 
 */motor_controller-backups/
+motor_controller/~motor_controller.kicad_pcb.lck
+motor_controller/~motor_controller.kicad_sch.lck
