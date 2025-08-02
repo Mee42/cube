@@ -1,0 +1,91 @@
+(footprint "ground test point d1.5"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "test point SMD pad")
+	(property "Reference" "TP41"
+		(at 0 -1.648 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "81ce705c-4220-4657-891e-0679804b2e1b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "test point"
+		(at 0 -1.1 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0e126c80-281c-4b7b-b905-0b4b7b79dd69")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.13)
+				(bold yes)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d49506e7-4aa9-4dca-943a-060352476380")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "test point"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f26e548-8d2a-444b-8ce1-0c0c13eb248e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_rect
+		(start -0.6 -0.6)
+		(end 0.6 0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b98b1da1-c52e-4d1d-b799-659462d57be6")
+	)
+	(fp_rect
+		(start -0.6 -0.6)
+		(end 0.6 0.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "56bbb448-0f28-4482-878c-681a5310b2db")
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1 1)
+		(drill 0.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "8db7e0c5-adda-4ec5-803b-c5ceb9fb9412")
+	)
+	(embedded_fonts no)
+)

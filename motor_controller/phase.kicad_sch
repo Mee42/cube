@@ -2934,6 +2934,12 @@
 		(uuid "11188381-2ca2-475c-9a4b-a6bba6abefcf")
 	)
 	(junction
+		(at 104.14 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1919911e-b0fd-4a66-8a70-a24fa1f279a1")
+	)
+	(junction
 		(at 71.12 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2952,6 +2958,18 @@
 		(uuid "22677d1e-7484-44a9-8b48-c86ec18949fa")
 	)
 	(junction
+		(at 130.81 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "370d0d3e-a77c-4df3-a289-33f83a58d962")
+	)
+	(junction
+		(at 105.41 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "373a1a13-3612-479e-a393-008495b37710")
+	)
+	(junction
 		(at 36.83 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2964,10 +2982,22 @@
 		(uuid "3e754a43-6460-4453-bdba-5f86239db3cf")
 	)
 	(junction
+		(at 111.76 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43659243-7360-4674-ada5-9618dc34655a")
+	)
+	(junction
 		(at 115.57 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c34d1e5-67e6-465c-88ad-744442deaace")
+	)
+	(junction
+		(at 101.6 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f0db3a9-83d8-443b-97b6-f7454bd1dfa7")
 	)
 	(junction
 		(at 115.57 93.98)
@@ -3000,6 +3030,12 @@
 		(uuid "7923fa5e-e523-4843-9e89-a77a8e6a2957")
 	)
 	(junction
+		(at 113.03 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a2803c6-753e-4eaa-97c3-f9e9697e6dd4")
+	)
+	(junction
 		(at 135.89 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3029,6 +3065,12 @@
 		(color 0 0 0 0)
 		(uuid "ece83d0b-7550-4416-a150-daa7d4cb1ae2")
 	)
+	(junction
+		(at 105.41 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fdd8a7d2-c85a-4654-ab93-99f4b1b17554")
+	)
 	(wire
 		(pts
 			(xy 36.83 53.34) (xy 36.83 59.69)
@@ -3051,7 +3093,17 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 66.04) (xy 114.3 66.04)
+			(xy 113.03 66.04) (xy 114.3 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "042e3c04-66dd-41bb-9a70-09c36c2866aa")
+	)
+	(wire
+		(pts
+			(xy 111.76 66.04) (xy 113.03 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3131,7 +3183,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 69.85) (xy 135.89 69.85)
+			(xy 129.54 69.85) (xy 130.81 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3171,7 +3223,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 68.58) (xy 93.98 68.58)
+			(xy 105.41 68.58) (xy 101.6 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3291,6 +3343,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 68.58) (xy 93.98 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44125892-290d-4d95-825d-a58fa14d81e3")
+	)
+	(wire
+		(pts
 			(xy 135.89 93.98) (xy 135.89 80.01)
 		)
 		(stroke
@@ -3398,6 +3460,16 @@
 			(type default)
 		)
 		(uuid "7dc0e3a6-45db-4d89-9200-91b06feef1c3")
+	)
+	(wire
+		(pts
+			(xy 130.81 69.85) (xy 135.89 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80971eb3-3156-4100-802b-7127ec9dd7ad")
 	)
 	(wire
 		(pts
@@ -3714,6 +3786,81 @@
 		(uuid "e06942ee-bc9f-4975-8ce2-c0e3fd6d8161")
 	)
 	(symbol
+		(lib_id "project:TestPoint")
+		(at 104.14 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03c68a03-1368-4bbf-a2c4-172fb53e4825")
+		(property "Reference" "TP20"
+			(at 97.282 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "test point"
+			(at 98.806 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "project:test point d1.5"
+			(at 104.14 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 104.14 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c2e4bc5-b6b4-409d-8a7e-12ecf079c8f3")
+		)
+		(instances
+			(project ""
+				(path "/0fc122b6-620c-463a-9463-c1b0bf65b8d3/5705e85b-9914-4831-b521-e8296ac61a68"
+					(reference "TP20")
+					(unit 1)
+				)
+				(path "/0fc122b6-620c-463a-9463-c1b0bf65b8d3/dfc316a5-d794-4b57-8483-445a10206a83"
+					(reference "TP22")
+					(unit 1)
+				)
+				(path "/0fc122b6-620c-463a-9463-c1b0bf65b8d3/e81e8a8e-fd21-45bf-bc0c-38b72cfb8616"
+					(reference "TP21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Zener")
 		(at 58.42 63.5 270)
 		(unit 1)
@@ -3881,6 +4028,81 @@
 				)
 				(path "/0fc122b6-620c-463a-9463-c1b0bf65b8d3/e81e8a8e-fd21-45bf-bc0c-38b72cfb8616"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "project:TestPoint")
+		(at 105.41 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17e31ae0-1ecd-456d-8215-98598f575b37")
+		(property "Reference" "TP26"
+			(at 98.552 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "test point"
+			(at 100.076 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "project:test point d1.5"
+			(at 105.41 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 105.41 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41b2df09-0447-4727-af7c-731a99533c99")
+		)
+		(instances
+			(project "motor_controller"
+				(path "/0fc122b6-620c-463a-9463-c1b0bf65b8d3/5705e85b-9914-4831-b521-e8296ac61a68"
+					(reference "TP26")
+					(unit 1)
+				)
+				(path "/0fc122b6-620c-463a-9463-c1b0bf65b8d3/dfc316a5-d794-4b57-8483-445a10206a83"
+					(reference "TP28")
+					(unit 1)
+				)
+				(path "/0fc122b6-620c-463a-9463-c1b0bf65b8d3/e81e8a8e-fd21-45bf-bc0c-38b72cfb8616"
+					(reference "TP27")
 					(unit 1)
 				)
 			)
@@ -4241,6 +4463,81 @@
 		)
 	)
 	(symbol
+		(lib_id "project:TestPoint")
+		(at 111.76 74.93 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37c0f772-b5bc-49fd-971a-d841ff449307")
+		(property "Reference" "TP38"
+			(at 111.76 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "test point"
+			(at 111.76 80.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "project:test point d1.5"
+			(at 106.68 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 111.76 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "827e22fe-e12c-4599-a4e7-2e706200938a")
+		)
+		(instances
+			(project "motor_controller"
+				(path "/0fc122b6-620c-463a-9463-c1b0bf65b8d3/5705e85b-9914-4831-b521-e8296ac61a68"
+					(reference "TP38")
+					(unit 1)
+				)
+				(path "/0fc122b6-620c-463a-9463-c1b0bf65b8d3/dfc316a5-d794-4b57-8483-445a10206a83"
+					(reference "TP40")
+					(unit 1)
+				)
+				(path "/0fc122b6-620c-463a-9463-c1b0bf65b8d3/e81e8a8e-fd21-45bf-bc0c-38b72cfb8616"
+					(reference "TP39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 115.57 76.2 0)
 		(unit 1)
@@ -4467,6 +4764,81 @@
 				)
 				(path "/0fc122b6-620c-463a-9463-c1b0bf65b8d3/e81e8a8e-fd21-45bf-bc0c-38b72cfb8616"
 					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "project:TestPoint")
+		(at 101.6 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "598592da-ec72-4574-80da-8a8b9948fd62")
+		(property "Reference" "TP32"
+			(at 101.6 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "test point"
+			(at 101.6 63.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "project:test point d1.5"
+			(at 106.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 101.6 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d92ee29-e66d-4e5e-a119-1317028ded15")
+		)
+		(instances
+			(project "motor_controller"
+				(path "/0fc122b6-620c-463a-9463-c1b0bf65b8d3/5705e85b-9914-4831-b521-e8296ac61a68"
+					(reference "TP32")
+					(unit 1)
+				)
+				(path "/0fc122b6-620c-463a-9463-c1b0bf65b8d3/dfc316a5-d794-4b57-8483-445a10206a83"
+					(reference "TP34")
+					(unit 1)
+				)
+				(path "/0fc122b6-620c-463a-9463-c1b0bf65b8d3/e81e8a8e-fd21-45bf-bc0c-38b72cfb8616"
+					(reference "TP33")
 					(unit 1)
 				)
 			)
@@ -4945,6 +5317,81 @@
 		)
 	)
 	(symbol
+		(lib_id "project:TestPoint")
+		(at 113.03 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e2bebe2-a71f-4e7e-b31e-52c971b0f10c")
+		(property "Reference" "TP35"
+			(at 113.03 59.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "test point"
+			(at 113.03 60.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "project:test point d1.5"
+			(at 118.11 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 113.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32510914-df1b-4bf9-be4d-069cd97949ee")
+		)
+		(instances
+			(project "motor_controller"
+				(path "/0fc122b6-620c-463a-9463-c1b0bf65b8d3/5705e85b-9914-4831-b521-e8296ac61a68"
+					(reference "TP35")
+					(unit 1)
+				)
+				(path "/0fc122b6-620c-463a-9463-c1b0bf65b8d3/dfc316a5-d794-4b57-8483-445a10206a83"
+					(reference "TP37")
+					(unit 1)
+				)
+				(path "/0fc122b6-620c-463a-9463-c1b0bf65b8d3/e81e8a8e-fd21-45bf-bc0c-38b72cfb8616"
+					(reference "TP36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 114.3 68.58 0)
 		(unit 1)
@@ -5120,6 +5567,81 @@
 				)
 				(path "/0fc122b6-620c-463a-9463-c1b0bf65b8d3/e81e8a8e-fd21-45bf-bc0c-38b72cfb8616"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "project:TestPoint")
+		(at 105.41 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4f4e2fa-d23b-4041-add4-a5818b3c96cf")
+		(property "Reference" "TP23"
+			(at 98.552 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "test point"
+			(at 100.076 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "project:test point d1.5"
+			(at 105.41 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 105.41 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6139127-f453-4936-8548-e6d55cd75970")
+		)
+		(instances
+			(project "motor_controller"
+				(path "/0fc122b6-620c-463a-9463-c1b0bf65b8d3/5705e85b-9914-4831-b521-e8296ac61a68"
+					(reference "TP23")
+					(unit 1)
+				)
+				(path "/0fc122b6-620c-463a-9463-c1b0bf65b8d3/dfc316a5-d794-4b57-8483-445a10206a83"
+					(reference "TP25")
+					(unit 1)
+				)
+				(path "/0fc122b6-620c-463a-9463-c1b0bf65b8d3/e81e8a8e-fd21-45bf-bc0c-38b72cfb8616"
+					(reference "TP24")
 					(unit 1)
 				)
 			)
@@ -5348,6 +5870,81 @@
 				)
 				(path "/0fc122b6-620c-463a-9463-c1b0bf65b8d3/e81e8a8e-fd21-45bf-bc0c-38b72cfb8616"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "project:TestPoint")
+		(at 130.81 69.85 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f21da140-b163-424b-bfb2-997f7244d9df")
+		(property "Reference" "TP29"
+			(at 130.81 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "test point"
+			(at 130.81 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "project:test point d1.5"
+			(at 125.73 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 130.81 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f42ebac5-4f0d-46a0-aee1-5687a01277af")
+		)
+		(instances
+			(project "motor_controller"
+				(path "/0fc122b6-620c-463a-9463-c1b0bf65b8d3/5705e85b-9914-4831-b521-e8296ac61a68"
+					(reference "TP29")
+					(unit 1)
+				)
+				(path "/0fc122b6-620c-463a-9463-c1b0bf65b8d3/dfc316a5-d794-4b57-8483-445a10206a83"
+					(reference "TP31")
+					(unit 1)
+				)
+				(path "/0fc122b6-620c-463a-9463-c1b0bf65b8d3/e81e8a8e-fd21-45bf-bc0c-38b72cfb8616"
+					(reference "TP30")
 					(unit 1)
 				)
 			)

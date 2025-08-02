@@ -6187,6 +6187,115 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "project:tp_ground"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "TP41"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "test point"
+				(at 0 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "project:ground test point d1.5"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "tp_ground_0_1"
+				(rectangle
+					(start -0.762 4.064)
+					(end 0.762 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "tp_ground_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 88.9 66.04)
@@ -6685,6 +6794,12 @@
 		(uuid "88a452bc-6029-4978-8c39-7e83c1159507")
 	)
 	(junction
+		(at 57.15 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e7bd93a-33aa-4619-9dd6-9fc402a03c49")
+	)
+	(junction
 		(at 156.21 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6701,6 +6816,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b1071a5-c298-4d8c-8a87-60776e7e5ab3")
+	)
+	(junction
+		(at 139.7 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b9b48db-9073-4d86-a49f-f471403c8788")
 	)
 	(junction
 		(at 140.97 83.82)
@@ -7028,7 +7149,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 105.41) (xy 64.77 105.41)
+			(xy 53.34 105.41) (xy 57.15 105.41)
 		)
 		(stroke
 			(width 0)
@@ -7345,6 +7466,16 @@
 			(type default)
 		)
 		(uuid "d3ec20f2-c87c-4cee-b90a-b42adabb9aa1")
+	)
+	(wire
+		(pts
+			(xy 57.15 105.41) (xy 64.77 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d49628bf-d671-49d7-b543-e2995419df36")
 	)
 	(wire
 		(pts
@@ -8521,6 +8652,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 128.27 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b544c4a-7aba-431d-89d4-2c3f386b4b9a")
+		(property "Reference" "#PWR029"
+			(at 128.27 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 145.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.27 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4168f80-1e95-4aaa-918c-1cbf6869e955")
+		)
+		(instances
+			(project "motor_controller"
+				(path "/0fc122b6-620c-463a-9463-c1b0bf65b8d3"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 422.91 30.48 0)
 		(unit 1)
@@ -9121,6 +9317,73 @@
 				(path "/0fc122b6-620c-463a-9463-c1b0bf65b8d3"
 					(reference "U1")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "project:TestPoint")
+		(at 139.7 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "285b3d9a-e0d1-46c9-a06c-7e66945f9c9f")
+		(property "Reference" "TP45"
+			(at 132.842 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "test point"
+			(at 134.366 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "project:test point d1.5"
+			(at 139.7 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 139.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7728baed-3a9f-46a9-a631-d2da3227e6b9")
+		)
+		(instances
+			(project "motor_controller"
+				(path "/0fc122b6-620c-463a-9463-c1b0bf65b8d3"
+					(reference "TP45")
+					(unit 1)
 				)
 			)
 		)
@@ -9844,6 +10107,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 138.43 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c3608e0-f027-4203-a01a-7463d82160ec")
+		(property "Reference" "#PWR027"
+			(at 138.43 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.43 145.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 138.43 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b299ed3-1f24-4e35-8eec-199ea2ea6b4b")
+		)
+		(instances
+			(project ""
+				(path "/0fc122b6-620c-463a-9463-c1b0bf65b8d3"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "project:TestPoint")
 		(at 53.34 81.28 90)
 		(unit 1)
@@ -9991,6 +10319,71 @@
 			(project ""
 				(path "/0fc122b6-620c-463a-9463-c1b0bf65b8d3"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 143.51 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6254a44d-3199-45cb-9cbf-7e5cea6320d2")
+		(property "Reference" "#PWR028"
+			(at 143.51 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.51 145.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 143.51 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e7b3b68-757f-4c2e-a346-3852a17176c9")
+		)
+		(instances
+			(project "motor_controller"
+				(path "/0fc122b6-620c-463a-9463-c1b0bf65b8d3"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -10345,6 +10738,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 133.35 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "78b2d65e-56bd-4fa8-87dd-17256840f53c")
+		(property "Reference" "#PWR030"
+			(at 133.35 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.35 145.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.35 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c58a420-2c13-4362-915d-3c364a9afe53")
+		)
+		(instances
+			(project "motor_controller"
+				(path "/0fc122b6-620c-463a-9463-c1b0bf65b8d3"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VSSA")
 		(at 53.34 110.49 180)
 		(unit 1)
@@ -10599,6 +11057,73 @@
 			(project ""
 				(path "/0fc122b6-620c-463a-9463-c1b0bf65b8d3"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "project:tp_ground")
+		(at 128.27 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90173c3d-329c-42de-be06-b25b6fb13be2")
+		(property "Reference" "TP43"
+			(at 128.27 135.382 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "test point"
+			(at 128.27 136.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "project:ground test point d1.5"
+			(at 133.35 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 128.27 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "faae6a6e-43bf-4338-bfd2-6669d55fbf98")
+		)
+		(instances
+			(project "motor_controller"
+				(path "/0fc122b6-620c-463a-9463-c1b0bf65b8d3"
+					(reference "TP43")
 					(unit 1)
 				)
 			)
@@ -11135,6 +11660,73 @@
 			(project ""
 				(path "/0fc122b6-620c-463a-9463-c1b0bf65b8d3"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "project:tp_ground")
+		(at 133.35 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab8e9223-ebe6-4a3d-b1ec-61223bde3e25")
+		(property "Reference" "TP44"
+			(at 133.35 135.382 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "test point"
+			(at 133.35 136.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "project:ground test point d1.5"
+			(at 138.43 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 133.35 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85b09596-0038-4b31-9894-df6b8f2227ef")
+		)
+		(instances
+			(project "motor_controller"
+				(path "/0fc122b6-620c-463a-9463-c1b0bf65b8d3"
+					(reference "TP44")
 					(unit 1)
 				)
 			)
@@ -12001,6 +12593,73 @@
 		)
 	)
 	(symbol
+		(lib_id "project:tp_ground")
+		(at 138.43 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6cd38f1-564a-4e84-8ed6-5e8bb0213349")
+		(property "Reference" "TP41"
+			(at 138.43 135.382 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "test point"
+			(at 138.43 136.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "project:ground test point d1.5"
+			(at 143.51 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 138.43 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98944c50-b475-4dc5-b7e4-6d2cd34286aa")
+		)
+		(instances
+			(project ""
+				(path "/0fc122b6-620c-463a-9463-c1b0bf65b8d3"
+					(reference "TP41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 113.03 44.45 0)
 		(unit 1)
@@ -12215,6 +12874,140 @@
 			(project "motor_controller"
 				(path "/0fc122b6-620c-463a-9463-c1b0bf65b8d3"
 					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "project:TestPoint")
+		(at 57.15 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8992889-bb25-46b8-a670-e0c4fc3b5a66")
+		(property "Reference" "TP46"
+			(at 57.15 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "test point"
+			(at 57.15 100.076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "project:test point d1.5"
+			(at 62.23 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 57.15 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38922663-20f9-4a09-ac11-17201c1b8597")
+		)
+		(instances
+			(project "motor_controller"
+				(path "/0fc122b6-620c-463a-9463-c1b0bf65b8d3"
+					(reference "TP46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "project:tp_ground")
+		(at 143.51 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f910b063-db08-46d1-a527-4f8d8a5d49ac")
+		(property "Reference" "TP42"
+			(at 143.51 135.382 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "test point"
+			(at 143.51 136.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "project:ground test point d1.5"
+			(at 148.59 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 143.51 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc549638-b8ed-4c63-b610-d2cf8ec46080")
+		)
+		(instances
+			(project "motor_controller"
+				(path "/0fc122b6-620c-463a-9463-c1b0bf65b8d3"
+					(reference "TP42")
 					(unit 1)
 				)
 			)
