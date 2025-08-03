@@ -7,11 +7,11 @@
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
         "board_outline_line_width": 0.05,
-        "copper_line_width": 0.2,
+        "copper_line_width": 0.1,
         "copper_text_italic": false,
-        "copper_text_size_h": 1.5,
-        "copper_text_size_v": 1.5,
-        "copper_text_thickness": 0.3,
+        "copper_text_size_h": 0.6,
+        "copper_text_size_v": 0.6,
+        "copper_text_thickness": 0.1,
         "copper_text_upright": false,
         "courtyard_line_width": 0.05,
         "dimension_precision": 4,
@@ -43,12 +43,12 @@
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
-        "silk_text_size_h": 1.0,
-        "silk_text_size_v": 1.0,
+        "silk_text_size_h": 0.6,
+        "silk_text_size_v": 0.6,
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.125
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [

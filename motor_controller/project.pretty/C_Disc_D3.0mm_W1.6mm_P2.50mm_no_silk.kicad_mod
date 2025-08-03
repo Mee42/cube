@@ -1,0 +1,214 @@
+(footprint "C_Disc_D3.0mm_W1.6mm_P2.50mm_no_silk"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.0*1.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
+	(tags "C Disc series Radial pin pitch 2.50mm  diameter 3.0mm width 1.6mm Capacitor")
+	(property "Reference" "C20"
+		(at 1.25 -2.049999 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "77210261-9317-43c2-87ae-cd1ef0a2be41")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "?"
+		(at 1.25 2.049999 180)
+		(layer "F.Fab")
+		(uuid "ea9b9c5e-2703-45df-970f-f7ea0a7959ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc40424b-882a-494b-921c-8c9489e9ba1c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Polarized capacitor, US symbol"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c8235b5-2f3c-4ad9-a733-85faa36a249b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "?"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0698949e-df2d-45bf-b574-99817626af7c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "voltage" "?"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "07879e31-5fb0-4e07-b537-5a376b897259")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "rating at vbus" "?"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c308acb4-ca4c-4d4f-ba2a-cf45d8aee802")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole dnp)
+	(fp_line
+		(start -1.05 -1.05)
+		(end -1.05 1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "34fa89ec-61e2-499a-8c03-91d2550cd0bd")
+	)
+	(fp_line
+		(start -1.05 1.05)
+		(end 3.55 1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "891e4725-2017-44c3-b59a-a00f6568ec7b")
+	)
+	(fp_line
+		(start 3.55 -1.05)
+		(end -1.05 -1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cf543612-57c8-4f6d-ade0-219faf0a4a2f")
+	)
+	(fp_line
+		(start 3.55 1.05)
+		(end 3.55 -1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ee8e95e2-2f6f-4a38-85b8-63afe90da081")
+	)
+	(fp_line
+		(start -0.25 -0.8)
+		(end -0.25 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f4fb1092-f7b1-4a86-8f00-a27f36a7dfb0")
+	)
+	(fp_line
+		(start -0.25 0.8)
+		(end 2.75 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bd7be479-992b-40a7-804f-c56c18c93455")
+	)
+	(fp_line
+		(start 2.75 -0.8)
+		(end -0.25 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "60ff6630-03be-48cc-bb75-c671e16b6b2e")
+	)
+	(fp_line
+		(start 2.75 0.8)
+		(end 2.75 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d6818417-25db-44e1-a2f4-c02212f79bf6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.249999 0 180)
+		(layer "F.Fab")
+		(uuid "66037fcb-dcbf-4639-861f-a8a7d49e1f95")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.09)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7f6a6a39-8ef1-4d5d-bc8c-831fa2d4b446")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d15503d1-47e9-442e-89dc-a270710a1ba6")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D3.0mm_W1.6mm_P2.50mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
