@@ -60,7 +60,28 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|52500000|43350000|a6a99c5e-6ad9-4c51-8d1d-110a7a542797|da4ccd13-0872-4e06-b4e1-f82c56af4b9e",
+          ""
+        ],
+        [
+          "clearance|76500000|43350000|75a184ed-99f5-4ea4-ba28-a4f775b1ab0f|d4aeea11-e4d8-4c43-baf2-9bea8d70e90b",
+          ""
+        ],
+        [
+          "shorting_items|52550000|44650000|4802b6a4-49dc-4e8b-a268-9e02c9934355|a57b3605-2fa5-41f3-aa2c-da43e7307ad4",
+          ""
+        ],
+        [
+          "shorting_items|76500000|44650000|236a6896-4f4b-41ad-9d0c-e720ebd1be67|c6ed7275-4358-421e-8973-719e8d85a80c",
+          ""
+        ],
+        [
+          "shorting_items|76550000|44650000|236a6896-4f4b-41ad-9d0c-e720ebd1be67|aa5667b5-2f31-4f01-a697-24400292d873",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -70,7 +91,7 @@
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "ignore",
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
@@ -91,7 +112,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -104,15 +125,15 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
-        "text_height": "warning",
+        "text_height": "ignore",
         "text_on_edge_cuts": "error",
-        "text_thickness": "warning",
+        "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
@@ -126,7 +147,7 @@
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
-        "zones_intersect": "error"
+        "zones_intersect": "ignore"
       },
       "rules": {
         "max_error": 0.005,

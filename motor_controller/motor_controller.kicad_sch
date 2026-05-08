@@ -8001,16 +8001,6 @@
 		)
 		(uuid "09cddace-8105-4119-9f53-bf5d13540cd4")
 	)
-	(text "geographical reannotate"
-		(exclude_from_sim no)
-		(at 47.244 245.364 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "147e0625-7450-4307-b1c2-889847ae1767")
-	)
 	(text "25mm"
 		(exclude_from_sim no)
 		(at 212.344 114.046 0)
@@ -8160,6 +8150,16 @@
 		)
 		(uuid "a34279b5-4ec2-4866-9761-181ace48fffb")
 	)
+	(text "DRC"
+		(exclude_from_sim no)
+		(at 34.036 236.728 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ae0e177b-761c-4ed6-aa93-b34679dc5cb4")
+	)
 	(text "top of board"
 		(exclude_from_sim no)
 		(at 155.702 88.138 0)
@@ -8179,16 +8179,6 @@
 			)
 		)
 		(uuid "bd2612f4-2dc5-4009-9ac2-3ebf63fbf9fc")
-	)
-	(text "silk"
-		(exclude_from_sim no)
-		(at 37.338 234.188 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c4d3d846-ee63-4193-bcde-60131a6a4f3b")
 	)
 	(text "MA732GQ-Z\n"
 		(exclude_from_sim no)
@@ -8223,16 +8213,6 @@
 			(justify right top)
 		)
 		(uuid "d60d7d77-98b8-440b-a453-e5117012ed79")
-	)
-	(text "fillet zones\n"
-		(exclude_from_sim no)
-		(at 38.354 239.522 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "dd587a1f-1364-41a4-a53b-1c3fcffef0cc")
 	)
 	(text "CONNECTORS"
 		(exclude_from_sim no)
@@ -8289,16 +8269,6 @@
 			)
 		)
 		(uuid "f33d46ce-b9fa-47e6-a062-2fa4b6cd0a73")
-	)
-	(text "geographical reannotate"
-		(exclude_from_sim no)
-		(at 46.99 236.982 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f48dd898-cdeb-4b15-9b6b-8c053468c003")
 	)
 	(junction
 		(at 133.35 116.84)
