@@ -41,3 +41,7 @@ fp-info-cache
 */motor_controller-backups/
 motor_controller/~motor_controller.kicad_pcb.lck
 motor_controller/~motor_controller.kicad_sch.lck
+/motor_controller/out
+/motor_controller/production
+/probes/probes-backups
+*.lck
