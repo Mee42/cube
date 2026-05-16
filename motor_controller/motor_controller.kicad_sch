@@ -16121,7 +16121,7 @@
 				)
 			)
 		)
-		(property "SKU" "C545497"
+		(property "SKU" "296-47769-1-ND"
 			(at 264.16 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -16142,7 +16142,7 @@
 				)
 			)
 		)
-		(property "Supplier" "LCSC"
+		(property "Supplier" "Mouser"
 			(at 264.16 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -17543,7 +17543,7 @@
 				)
 			)
 		)
-		(property "SKU" "C545497"
+		(property "SKU" "296-47769-1-ND"
 			(at 240.03 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -17564,7 +17564,7 @@
 				)
 			)
 		)
-		(property "Supplier" "LCSC"
+		(property "Supplier" "Mouser"
 			(at 240.03 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -28148,7 +28148,7 @@
 				)
 			)
 		)
-		(property "SKU" "C545497"
+		(property "SKU" "296-47769-1-ND"
 			(at 332.74 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -28169,7 +28169,7 @@
 				)
 			)
 		)
-		(property "Supplier" "LCSC"
+		(property "Supplier" "Mouser"
 			(at 332.74 74.93 0)
 			(hide yes)
 			(show_name no)

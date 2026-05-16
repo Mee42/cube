@@ -4546,7 +4546,7 @@
 				)
 			)
 		)
-		(property "MPN" "PA0805FRL470R001L"
+		(property "MPN" "PA0805FRL870R001L"
 			(at 124.46 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -4557,7 +4557,7 @@
 				)
 			)
 		)
-		(property "SKU" "C6351850"
+		(property "SKU" "C20160272"
 			(at 124.46 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -5462,7 +5462,7 @@
 				)
 			)
 		)
-		(property "SKU" "C545497"
+		(property "SKU" "296-47769-1-ND"
 			(at 84.582 82.296 0)
 			(hide yes)
 			(show_name no)
@@ -5483,7 +5483,7 @@
 				)
 			)
 		)
-		(property "Supplier" "LCSC"
+		(property "Supplier" "Mouser"
 			(at 85.09 73.66 0)
 			(hide yes)
 			(show_name no)

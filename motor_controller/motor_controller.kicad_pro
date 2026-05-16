@@ -583,14 +583,14 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "${PROJECTNAME}_Mouser.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
       "keep_line_breaks": false,
       "keep_tabs": false,
       "name": "---",
-      "ref_delimiter": ",",
+      "ref_delimiter": "",
       "ref_range_delimiter": "",
       "string_delimiter": ""
     },
@@ -608,10 +608,10 @@
           "group_by": true,
           "label": "Value",
           "name": "Value",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
           "show": false
@@ -632,7 +632,7 @@
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -677,7 +677,7 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "SKU",
           "name": "SKU",
           "show": true
@@ -699,14 +699,20 @@
           "label": "Sim.Pins",
           "name": "Sim.Pins",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KiLib_Generator",
+          "name": "KiLib_Generator",
+          "show": false
         }
       ],
-      "filter_string": "D*",
+      "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
-      "sort_asc": false,
-      "sort_field": "MPN"
+      "sort_asc": true,
+      "sort_field": "Supplier"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
